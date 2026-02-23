@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diara - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <h1 class="logo">Diara</h1>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="hero">
+        <div class="container">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Senang melihat Anda di sini. Silakan lihat-lihat.</p>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>
+                Saya adalah siswa yang sedang belajar membuat website portofolio menggunakan HTML, CSS, dan JavaScript.
+                Saya memiliki minat di bidang teknologi dan ingin terus berkembang.
+            </p>
+        </div>
+    </section>
+
+    <section id="education" class="content-section">
+    <div class="container">
+        <h2>Jenjang Pendidikan</h2>
+
+        <button onclick="tambahPendidikan()" class="btn-tambah">
+            ➕ Tambah Pendidikan
+        </button>
+
+        <div id="education-list"></div>
+
+    </div>
+</section>
+
+    <section id="skills" class="content-section">
+        <div class="container">
+            <h2>Skill</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+            </div>
+        </div>
+    </section>
+
+   <section id="experience" class="content-section">
+    <div class="container">
+        <h2>Pengalaman</h2>
+
+        <div class="experience-item">
+            <h3>Project Website Portfolio</h3>
+            <p>Pernah membuat tugas website portofolio menggunakan Gemini CLI.</p>
+
+            <img src="img/profile.jpg" alt="Dokumentasi Project" class="experience-img">
+            <img src="img/busy.jpg" class="experience-img">
+            <img src="img/Learning.jpg" class="experience-img">
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Diara. Dibuat dengan ❤️</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
